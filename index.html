@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<style>
+  .column {
+    float: left;
+    width: 50%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col_text {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+
+  .col_new {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+
+  /* Clear floats after the columns */
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row_new {
+    display: table;
+    clear: both;
+    border: groove;
+  }
+
+  .dark_bag {
+    color: whitesmoke;
+  }
+
+  .alternate_div {
+    background-color: #001f3f;
+  }
+
+  .circularimg {
+    display: block;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+</style>
+<html lang="">
+
+<head>
+  <title>up.AI</title>
+  <link rel="shortcut icon" href="images/rsz_39594166_1161549937340736_4511167939566632960_n.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Proza+Libre:700" rel="stylesheet">
+</head>
+
+<body id="top" data-spy="scroll" data-target="#mainav" data-offset="50">
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- Top Background Image Wrapper -->
+  <div class="bgded" style="background-image:url('images/coverpic.png');">
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row1" style="position: fixed; z-index: 999;">
+      <header id="header" class="hoc clear">
+        <!-- ################################################################################################ -->
+        <div id="logo" class="fl_left" style="position: relative;">
+          <div class="row">
+            <img href="index.html" class"col" src="images/rsz_39594166_1161549937340736_4511167939566632960_n.png">
+            
+            <div class="pl-4 pt-3 col h-100">
+              up.AI Summit <br> 5-7 October 2018, IIT Kharagpur 
+              </div>
+        </div>
+          <!-- <h1><a href="index.html">Up.ai</a></h1> -->
+        </div>
+        <nav id="mainav" class="fl_right">
+          <ul class="clear">
+            <li class="active">
+              <a href="#pageintro">Home</a>
+            </li>
+            <li>
+                <a href="#abouttheevents">Events</a>
+              </li>
+            <li>
+              <a href="#SCHEDULE">Schedule</a>
+            </li>
+            <li>
+              <a href="#Organisingpeople">Organisers</a>
+            </li>
+            <li>
+              <a href="#ContactUs">Contact us</a>
+            </li>
+            <!--<li>
+              <a class="drop" href="#">Pages</a>
+              <ul>
+                <li>
+                  <a href="pages/gallery.html">Gallery</a>
+                </li>
+
+              </ul>
+            </li> -->
+
+          </ul>
+        </nav>
+        <!-- ################################################################################################ -->
+      </header>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div id="pageintro" class="hoc clear">
+      <!-- ################################################################################################ -->
+      <article>
+        <h3 class="heading" style="font-family: Cuprum"></h3>
+        <!-- <footer>
+          <ul class="nospace inline pushright">
+            <li>
+              <a class="btn" href="#">Register</a>
+            </li>
+            <li>
+              <a class="btn inverse" href="#">Sign In</a>
+            </li>
+          </ul>
+        </footer> -->
+      </article>
+      <!-- <img src="images/logo.png" class="logo_up"> -->
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+
+  </div>
+  <!-- End Top Background Image Wrapper -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row3">
+    <main class="hoc container clear">
+      <!-- main body -->
+      <!-- ################################################################################################ -->
+      <!-- <div >
+      <h6 class="heading">Our world faces numerous challenges like diseases, natural disasters, illiteracy, low-crop yields etc. We are hopeful that Artificial Intelligence can provide an answer to many of these problems and raise the status quo of the society. Deep Learning has shown massive potential to extract useful patterns from massive amount of data, patterns that can be immensely useful for our society. So come join us and help us build an AI powered India.</h6>
+    </div> -->
+      <article class="group">
+        <div class="one_half first">
+          <h6 class="heading" align="center" style="font-family: Proza Libre; color: black;">Building AI for Social
+            Good in India</h6>
+          <!-- <p>Our world faces numerous challenges like diseases, natural disasters, illiteracy, low-crop yields etc. We are hopeful
+            that Artificial Intelligence can provide an answer to many of these problems and raise the status quo of the
+            society. Deep Learning has shown massive potential to extract useful patterns from massive amount of data, patterns
+            that can be immensely useful for our society. So come join us and help us build an AI powered India.</p> -->
+          <p style="font-family: Roboto; color: black;">India is a nation of 1.35 billion people. However, most of
+            their dreams remain unrealised due to illiteracy, hunger,
+            diseases, natural disasters and numerous other socio-economic challenges. Having demonstrated superhuman
+            levels
+            of performance at understanding images, speech and natural language and beaten world-champions at some of
+            the
+            hardest games known to man, Artificial Intelligence has emerged as a highly promising tool to ameliorate
+            these
+            handicaps that currently face our society. up.AI (pronounced “upay” (उपाय), meaning “solution” in Hindi) is
+            a
+            joint initiative of The Department of Computer Science and Engineering, IIT Kharagpur and the Centre for
+            Excellence
+            in Artificial Intelligence, IIT Kharagpur to invite the KGPians to learn and identify burning problems in
+            our
+            country and create AI powered solutions.
+          </p>
+
+        </div>
+      </article>
+
+
+    </main>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="Register" class="alternate_div">
+    <main class="container clear ">
+      <br>
+      <br>
+      <br>
+      <br>
+      <h6 class="dark_bag" align="center" id="abouttheevents" style="font-family: Proza Libre;">Fly High with AI</h6>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-3 ">
+          <center>
+            <img class="" style = "margin-top: 10%"src="images/rsz_bootcamp.png">
+          </center>
+        </div>
+        <div class="col-8">
+          <h6 class="dark_bag pr-2" style="font-family: helvetica; text-transform: none"><b>up.AI
+              Bootcamp</b></h6>
+          <p class="dark_bag pr-2" style="font-family: Roboto;">A three hour deep dive into the
+            theory, implementation and deployment of AI-powered algorithms to get up to speed
+            with the Deep Learning revolution. Organized in partnership with Intel AI Academy, this event will also
+            feature
+            a one-of-a-kind Deep Learning Quiz. Lots of goodies to be won.
+          </p>
+          <a href="https://docs.google.com/forms/d/1mWAHMdKOYNC0kOakrZWC5bTFL96A9ip1s0m9hItLDto/viewform?edit_requested=true"
+          type="submit" class="btn text" value="submit" name="submit" target="register">Register</a>
+          <br>
+          <br>
+          <p class="dark_bag pr-2" style="font-family: Roboto;">
+            Registration closes on 30 September 2018.
+          </p>
+        <!-- </div> -->
+        <!-- <div class="col-3"> -->
+          <!-- <center style = "margin-top: 25%"> -->
+          <!-- </center> -->
+          <br>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-3 ">
+          <center>
+            <img class="" style="margin-top: 15%" src="images/new_network.png">
+          </center>
+        </div>
+        <div class="col-8">
+          <h6 class="dark_bag pr-2" style="font-family: helvetica; text-transform: none"><b>up.AI
+              Workshop</b></h6>
+          <p class="dark_bag pr-2" style="font-family: Roboto;">Two and a half days of
+            tutorials,
+            talks by relevant
+            personalities from the Academia and the Industry and spotlight
+            presentations by the students and research scholars of IIT Kharagpur about their work in the areas of focus
+            of
+            up.AI.
+          </p>
+          <a href="https://docs.google.com/forms/d/13X3wBhnO1R-Sr3AHa3E70d1iz1qGXiCyB8Lol58qSuA/viewform?edit_requested=true"
+          type="submit" value="submit" class="btn text-light" name="submit" target="submit">Submit Spotlight
+          Presentation</a>
+          <br>
+          <br>
+          <p class="dark_bag pr-2" style="font-family: Roboto;">
+            The Submission Deadline for Spotlight Presentation is 20 September 2018. Results will be declared on 30
+            September 2018. The
+            template for the presentation is downloadable
+            <a href="https://docs.google.com/presentation/d/1uSXNVPdxsVNhlN_gavkM795nw4TkgVyTNWCJrv0q5pg/edit#slide=id.p"
+              target="here">here</a>.
+            <br>If selected you will get an opportunity to present in the workshop.
+          </p>
+        <!-- </div> -->
+        <!-- <div class="col-3"> -->
+          <!-- <center style = "margin-top: 35%"> -->
+          <!-- </center> -->
+          <br>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-3 ">
+          <center>
+            <img class="" style = "margin-top: 12%"src="images/rsz_braintop.png">
+          </center>
+        </div>
+        <div class="col-8">
+          <h6 class="dark_bag pr-2" style="font-family: helvetica; text-transform: none"><b>up.AI
+              Challenge</b></h6>
+          <p class="dark_bag pr-2" style="font-family: Roboto;">The students of IIT Kharagpur are
+            invited to form teams of
+            size three and submit project proposals in the areas
+            of focus of up.AI. 10 projects will be selected for incubation during the winter vacation under the
+            mentorship
+            of professors, industry-experts and PhD students to convert the ideas into deployable solutions. Exciting
+            prizes
+            and/or internship/job offers await the winner and the two runner up teams.
+          </p>
+          <a type="submit" class="btn text-light Popover" value="submit" name="submit" target="register" data-toggle="popover" data-content="Some content inside the popover">Submit Proposal</a>
+          <br>
+          <br>
+          <p class="dark_bag pr-2" style="font-family: Roboto;">
+            The submissions for the proposals will start after 7th October 2018.
+          </p>
+        <!-- </div> -->
+        <!-- <div class="col-3"> -->
+          <!-- <center style = "margin-top: 30%"> -->
+          <!-- </center> -->
+          <br>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="clear"></div>
+      <div class="clear"></div>
+    </main>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+
+  <div class="wrapper row3">
+    <main class="hoc container clear">
+      <!-- main body -->
+      <!-- ################################################################################################ -->
+      <!-- <div >
+    </div> -->
+      <article class="group">
+        <div class="one_half first">
+          <h6 class="heading" style="font-family: Proza Libre; color: black;" align="center">Areas of Focus</h6>
+          <img src="images/collage_attempt2.png" alt="areas of focus">
+
+      </article>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- / main body -->
+  <div class="clear"></div>
+  </main>
+  </div>
+
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="alternate_div">
+    <section class="hoc container clear">
+      <!-- ################################################################################################ -->
+      <div class="sectiontitle">
+        <h2 style="font-family: Proza Libre; color: whitesmoke;">Guest Speakers</h2>
+
+      </div>
+      <!-- <div class="group latest">
+        <article class="one_third first">
+          <a class="imgover btmspace-30" href="#">
+            <img src="images/sanjeev.jpg" alt="">
+          </a>
+          <figcaption>
+            <h6 class="dark_bag">Sanjeev Sharma</h6>
+            <strong class="dark_bag">Founder and Director, Swaayatt Robots</strong>
+            <br>
+            <footer>
+              <br>
+              <p class="dark_bag"> His research spans across motion planning, artificial intelligence (specifically in
+                machine learning, reinforcement
+                learning and deep learning), mathematical optimization (convex, non-convex, decentralized
+                optimization),
+                decision making and computer vision perception for self-driving vehicles.&hellip; </p>
+              <a href="https://www.linkedin.com/in/sanjeevsharmaiitr/">Know More</a>
+            </footer>
+          </figcaption>
+        </article> -->
+        <div class="card-deck" align="center">
+	        <div class="card" style="width: 18rem; border: none;">
+			  <img class="card-img-top" src="images/sanjeev.jpg" alt="Speaker1">
+			  <div class="card-body">
+			    <h5 class="card-title" style="color: black">Sanjeev Sharma</h5>
+			    <p class="card-text" style="color: black">Founder and Director, Swaayatt Robots</p>
+			    <a href="https://www.linkedin.com/in/sanjeevsharmaiitr/"  target="s1" style="color: #4875B4">Linkedin</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem; border: none;">
+			  <img class="card-img-top" src="images/shailesh.jpg" alt="Speaker2">
+			  <div class="card-body">
+			    <h5 class="card-title" style="color: black">Shailesh Kumar</h5>
+			    <p class="card-text" style="color: black">Chief Data Scientist, Jio CoE AI/ML</p>
+			    <a href="https://www.linkedin.com/in/shaileshk/" target="s2" style="color: #4875B4">Linkedin</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem; border: none;">
+			  <img class="card-img-top" src="images/speaker3.jpeg" alt="Speaker3">
+			  <div class="card-body">
+			    <h5 class="card-title" style="color: black">Malaikannan Sankarasubbu</h5>
+			    <p class="card-text" style="color: black">Vice President, AI Research @Saama Technologies</p>
+			    <a href="https://www.linkedin.com/in/malaikannan/"  target="s3" style="color: #4875B4">Linkedin</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem; border: none;">
+			  <img class="card-img-top" src="images/subrat.jpeg" alt="Speaker4">
+			  <div class="card-body">
+			    <h5 class="card-title" style="color: black">Subrat Panda</h5>
+			    <p class="card-text" style="color: black">Head of AI and Data Sciences at Capillary Technologies</p>
+			    <a href="https://www.linkedin.com/in/subratpanda/" target="s4" style="color: #4875B4">Linkedin</a>
+			  </div>
+			</div>
+		</div>
+  </section>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+
+  <div class="wrapper row3">
+    <main class="hoc container clear">
+      <!-- main body -->
+      <!-- ################################################################################################ -->
+      <div class="sectiontitle" id="SCHEDULE">
+        <h6 class="heading" style="font-family: Proza Libre; color: black;">
+          SCHEDULE
+        </h6>
+      </div>
+
+
+      <div class="container">
+        <center>
+          <h5 style="color: black; font-family:helvetica;">Workshop</h5>
+          <ul class="nav justify-content-center">
+            <li class="nav-item w-100" style="background-color: #001f3f">
+              <h6 class="text-white " href="#" role="button" aria-haspopup="true" aria-expanded="false">5th October
+              </h6>
+              <div class=" w-100 text-left text-white">
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item  event-links">
+                  <div class="row">
+                    <div class="col-4">20:00 - 23:00</div>
+                    <div class="col-8">Intel AI DevJam</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item w-100 mt-5" style="background-color: #001f3f">
+              <h6 class="text-white " href="#" role="button" aria-haspopup="true" aria-expanded="false">6th October
+              </h6>
+              <div class=" w-100 text-left text-white" style="background-color: #001f3f">
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item  event-links">
+
+                  <div class="row">
+
+                    <div class="col-4">9:00 - 11:00</div>
+
+                    <div class="col-8"> Opening Ceremony</div>
+
+                  </div>
+
+                </a>
+                <!-- <div class="dropdown-divider"></div>
+                <a class="dropdown-item  event-links" href="#">
+                  <div class="row">
+                    <div class="col-4">9:00 - 9:30</div>
+                    <div class="col-8"> Introductory Speech</div>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item  event-links" href="#">
+                  <div class="row">
+                    <div class="col-4">9:30 - 10:15</div>
+                    <div class="col-8">Speech by Director, IIT KGP(tentative)</div>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item  event-links" href="#">
+                  <div class="row">
+                    <div class="col-4">10:15 - 11:00</div>
+                    <div class="col-8">Keynote talk by Sanjeev Sharma, CEO, Swaayat Robots</div>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item  event-links" href="#">
+                  <div class="row">
+                    <div class="col-4">10:15 - 11:00</div>
+                    <div class="col-8">Keynote talk by Wadhwani AI on AI for Social Good</div>
+                  </div>
+                </a> -->
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-item text-white">
+                  <div class="row">
+                    <div class="col-4">14:00 - 17:00</div>
+                    <div class="col-8">
+                      <!-- <ul>
+                        <li> -->
+                      <a class="event-links">AI in Healthcare (Track 1) </a>
+                      <br>
+                      <!-- <ul>
+                            <a href="#" class="event-links">
+                              <li>Talk by Malaikannan Sankarasubbu, Saama Technologies</li>
+                            </a>
+                            <a href="#" class="event-links">
+                              <li>Talk by Prof. Debdoot Sheet</li>
+                            </a>
+                            <a href="#" class="event-links">
+                              <li>Spotlight Session</li>
+                            </a>
+                          </ul> -->
+                      <!-- </li>
+                        <li> -->
+                      <a class="event-links">AI in Industry (Track 2)</a>
+                      <!-- <ul>
+                            <a href="#" class="event-links">
+                              <li>Talk by Subrat Panda, Capillary Technologies</li>
+                            </a>
+                            <a href="#" class="event-links">
+                              <li>Talk by Placeholder 1</li>
+                            </a>
+                            <a href="#" class="event-links">
+                              <li>Spotlight Session</li>
+                            </a>
+                          </ul> -->
+                      <!-- </li>
+                      </ul> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item w-100 mt-5" style="background-color: #001f3f">
+              <h6 class="nav-link text-white" role="button" aria-haspopup="true" aria-expanded="false">7th
+                October </h6>
+              <div class=" w-100 text-left" style="background-color: #001f3f">
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-item text-white">
+                  <div class="row">
+                    <div class="col-4">9:00 - 12:00</div>
+                    <div class="col-8">
+                      <!-- <ul>
+                        <li> -->
+                      <a class="event-links">AI in Education (Track 3)</a>
+                      <br>
+                      <!-- <ul>
+                            <a href="#" class="event-links">
+                              <li>Talk by Dr. Shailesh Kumar, Jio</li>
+                            </a>
+                            <a href="#" class="event-links">
+                              <li>Talk by Placeholder KGP</li>
+                            </a>
+                            <a href="#" class="event-links">
+                              <li>Spotlight Session</li>
+                            </a>
+                          </ul> -->
+                      <!-- </li>
+                        <li> -->
+                      <a class="event-links">AI in Agriculture and Environment (Track 4)</a>
+                      <!-- <ul>
+                            <a href="#" class="event-links">
+                              <li>Talk by Wadhwani</li>
+                            </a>
+                            <a href="#" class="event-links">
+                              <li>Talk by Ritesh Dhoot, Founder, Agricxlab</li>
+                            </a>
+                            <a href="#" class="event-links">
+                              <li>Spotlight Session</li>
+                            </a>
+                          </ul> -->
+                      <!-- </li>
+                      </ul> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-divider"></div>
+
+                <div class="dropdown-item text-white">
+                  <div class="row">
+                    <div class="col-4">14:00 - 17:00</div>
+                    <div class="col-8">
+                      <a class="event-links">
+                        Panel discussion with invited guests
+                      </a>
+                      <br>
+                      <a class="event-links">
+                        Closing Ceremony
+                      </a>
+                      <!-- <a href="#" class="event-links">
+                          <li>Announcement of ideation and incubation contest</li>
+                        </a>
+                        <a href="#" class="event-links">
+                          <li>Submission portal opens for the ideation and incubation contest</li>
+                        </a> -->
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+        </center>
+      </div>
+      <div class="container">
+        <center>
+          <h5 style="color: black; font-family:helvetica;">Challenge</h5>
+          <ul class="nav justify-content-center">
+            <li class="nav-item w-100 dropdown" style="background-color: #001f3f">
+              <h6 class="text-white " role="button" aria-haspopup="true" aria-expanded="false">Timeline </h6>
+              <div class="w-100 text-left" style="background-color: #001f3f">
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-item text-white">
+                  <div class="row">
+                    <div class="col-4">7 October</div>
+                    <div class="col-8">
+                      <ul>
+                        <a class="event-links">
+                          <li>Announcement of ideation and incubation contest</li>
+                        </a>
+                        <a class="event-links">
+                          <li>Submission portal opens for the ideation and incubation contest</li>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-item text-white">
+                  <div class="row">
+                    <div class="col-4">21 October</div>
+                    <div class="col-8">
+                      <ul>
+                        <a class="event-links">
+                          <li>Submission Portal Closes</li>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-item text-white">
+                  <div class="row">
+                    <div class="col-4">22-25 October</div>
+                    <div class="col-8">
+                      <ul>
+                        <a class="event-links">
+                          <li>Selection of 10 projects for incubation</li>
+                        </a>
+                        <a class="event-links">
+                          <li>Adoption of projects by the sponsors </li>
+                        </a>
+                        <a class="event-links">
+                          <li>Assignment of professors and graduate students for mentorship</li>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-item text-white">
+                  <div class="row">
+                    <div class="col-4">26 October</div>
+                    <div class="col-8">
+                      <ul>
+                        <a class="event-links">
+                          <li>
+                            Announcement of results for the ideation and incubation contest
+                          </li>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-item text-white">
+                  <div class="row">
+                    <div class="col-4">27 October - 30 December</div>
+                    <div class="col-8">
+                      <ul>
+                        <li>Incubation and implementation</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-item text-white">
+                  <div class="row">
+                    <div class="col-4">First Week of January 2019</div>
+                    <div class="col-8">
+                      <ul>
+                        <a class="event-links">
+                          <li>
+                            Online Showcase of incubated projects on the official up.AI YouTube Channel
+                          </li>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+        </center>
+      </div>
+
+
+  </div>
+  <div class="clear"></div>
+  <br>
+  <br>
+  <br>
+  <br>
+  </main>
+  </div>
+
+
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+
+  <div class="alternate_div">
+    <section class="hoc container clear">
+      <!-- ################################################################################################ -->
+      <div class="sectiontitle" id="Organisingpeople">
+        <h6 class="dark_bag" style="font-family: Proza Libre;">Organisers</h6>
+      </div>
+      <div class="row">
+      <div class="col" align="center">
+          <img src="images/kgplogo1.png.png" alt="iit kgp">
+        </div>
+    </div>
+    <br>
+    <br>
+      <div class="row">
+        <div class="col" align="center">
+          <br>
+          <div class="dark_bag" align="center" style="color: whitesmoke; font-size: 175%">Department of Computer
+            Science and Engineering, IIT Kharagpur</div>
+          <br>
+          <div class="dark_bag" align="center" style="color: whitesmoke; font-size: 175%">Center of Excellence in
+            Artificial Intelligence, IIT Kharagpur</div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="h5 text-dark" align="center">
+        <div class="row mb-3">
+          <div class="col-4 font-weight-bold" style="color: whitesmoke;">
+            President
+          </div>
+          <div class=" col-4" style="color: whitesmoke;">Prof. Sudeshna Sarkar</div>
+          <div class="col-4" style="color: whitesmoke;">
+            sudeshna@cse.iitkgp.ernet.in
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-4 font-weight-bold" style="color: whitesmoke;">
+            Program Chairman
+          </div>
+          <div class=" col-4" style="color: whitesmoke;">Anirban Santara</div>
+          <div class="col-4" style="color: whitesmoke;">
+            anirban_santara@iitkgp.ac.in
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col-4 font-weight-bold" style="color: whitesmoke;">
+            Steering Committee
+          </div>
+          <div class=" col-4" style="color: whitesmoke;">Siddharth Jain</div>
+          <div class="col-4" style="color: whitesmoke;">
+            1997jainsid@gmail.com
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col-4">
+
+          </div>
+          <div class=" col-4" style="color: whitesmoke;">Tanay Bhartia</div>
+          <div class="col-4" style="color: whitesmoke;">
+            tanaybhartia@gmail.com
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col-4 font-weight-bold">
+
+          </div>
+          <div class=" col-4" style="color: whitesmoke;">Krushna Gaurkar</div>
+          <div class="col-4" style="color: whitesmoke;">
+            krushnagaurkar@gmail.com
+          </div>
+        </div>
+      </div>
+      <!-- ################################################################################################ -->
+    </section>
+
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row3">
+    <figure class="hoc container clear clients">
+      <h6 class="heading" align="center" style="font-family: Proza Libre; color: black;">SPONSORS</h6>
+      <br>
+      <br>
+      <figure class="one_third first" align="center">
+        <a class="imgover" href="https://software.intel.com/en-us/ai-academy" target="intel">
+          <img src="images/intel.png" alt="intel">
+        </a>
+      </figure>
+      <figure class="one_third" align="center">
+        <a class="imgover" href="https://www.capillarytech.com/" target="capillary">
+          <img src="images/capillary1.png" alt="capillary">
+        </a>
+      </figure>
+      <figure class="one_third" align="center">
+        <a class="imgover" href="https://www.jio.com/" target="jio">
+          <img src="images/jio2.png" alt="jio">
+        </a>
+      </figure>
+      <!-- ################################################################################################ -->
+      <!-- ################################################################################################ -->
+    </figure>
+  </div>
+  <div class="alternate_div">
+    <section class="hoc cta clear">
+      <!-- ################################################################################################ -->
+      <div class="sectiontitle" id="ContactUs">
+        <h6 class="dark_bag" style="font-family: Proza Libre;">Contact Us</h6>
+        <br>
+        <p class="dark_bag">If you want to know more about up.AI, just submit your e-mail address.</p>
+      </div>
+      <form action="https://formspree.io/up.ai.iitkgp@gmail.com" method="POST">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          </button>
+          <input class="btmspace-15" id="email" type="email" name="_replyto" placeholder="Enter Your Email Here&hellip;">
+          <input id="textarea" type="text" class="btmspace-15" name="message" placeholder="Enter Your message&hellip;"></input>
+          <br>
+          <button type="submit" value="submit" name="submit" class="btn" style="background-color:#3389c6">Submit</button>
+        </fieldset>
+      </form>
+      <!-- ################################################################################################ -->
+    </section>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+
+  <div class="wrapper row4">
+    <footer id="footer" class="hoc clear">
+      <!-- ################################################################################################ -->
+      <article class="one_quarter first">
+        <h6 class="heading" style="font-family: Proza Libre; color: black;">About CodeClub</h6>
+
+        <p>At CodeClub, we believe in pulling out the most efficient of a group and best of an individual. Workshops,
+          guest
+          lectures and coding competitions are few among the vast list of events we organise. &hellip;</p>
+        <p class="nospace">
+          <a href="https://rajesh-khanna.github.io/CC-page2/home/index.html">Read More</a>
+        </p>
+      </article>
+      <div class="one_quarter">
+        <h6 class="heading" style="font-family: Proza Libre; color: black;">CodeClub Contacts</h6>
+        <ul class="nospace btmspace-30 linklist contact">
+          <li>
+            <i class="fa fa-map-marker"></i>
+            <address>
+              Department of Computer Science &amp; Engineering, IIT Kharagpur.
+            </address>
+          </li>
+          <li>
+            <i class="fa fa-envelope-o"></i> codeclub.iitkgp@gmail.com</li>
+        </ul>
+        <ul class="faico clear">
+          <li>
+            <a class="faicon-facebook" href="https://www.facebook.com/CodeClub.IITKGP/?hc_ref=ARQrPGfEPYRUDUGJaLMhgGMhSecok_LS6Kbr9yRvTA58lKCsQBNTWn2cQcaaLEqGmJs&fref=nf&__xts__[0]=68.ARDgKjjRLKQVJ4ey2qxM1cWX1TNmeJkQo_m7K7_iWhOth5vRh9mKXVXDMcwmTaYqeCKG6Iia3jSN23QVvjxKu-tqYnmtZMMrZ8blE4KPaIqnXk-vFJow_HiX3YVal_pTF72k8wc&__tn__=kC-R">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a class="faicon-twitter" href="https://twitter.com/kgp_iit">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a class="faicon-google-plus" href="https://plus.google.com/u/0/107646454563742912768">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <img src="images/codeclub.png" class="codeclub">
+      <!-- ################################################################################################ -->
+    </footer>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <a id="backtotop" href="#top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+  <!-- JAVASCRIPTS -->
+  <script src="layout/scripts/jquery.min.js"></script>
+  <script src="layout/scripts/jquery.backtotop.js"></script>
+  <script src="layout/scripts/jquery.mobilemenu.js"></script>
+
+</body>
+<script>
+    </script>
+</html>
