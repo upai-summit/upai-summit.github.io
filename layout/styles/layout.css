@@ -252,7 +252,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#330066;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.8);}
 .overlay.light::after{background-color:rgba(0,0,0,.55);}
 
-.btn{color:#FFFFFF; background-color:#3389c6; border-color:#3999dc;} 
+.btn{color:#FFFFFF; background-color:#3389c6; border-color:#3999dc;}
 .btn.inverse:hover{color:#FFFFFF; background-color:#3389c6; border-color:#3999dc;}
 .btn:hover, .btn.inverse{color:black; background-color:#60ade3; border-color:#9ccced;}
 .btn:visited{color:#FFFFFF; background-color:#3389c6; border-color:#3999dc;}
